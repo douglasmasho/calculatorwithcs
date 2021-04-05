@@ -130,6 +130,10 @@ namespace calculator
 
         private void button3_Click_1(object sender, EventArgs e)
         {
+
+
+
+
             if(txtDisplay.Text.Contains("-"))
             {
                 txtDisplay.Text = txtDisplay.Text.Remove(0, 1);
